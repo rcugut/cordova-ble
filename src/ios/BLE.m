@@ -1395,7 +1395,7 @@ static int MyPerhiperalAssociatedObjectKey = 42;
 
 	self.scanIsWaiting = NO;
 
-	NSDictionary* options = @{CBCentralManagerScanOptionAllowDuplicatesKey: @YES};
+	NSDictionary* options = @{CBCentralManagerScanOptionAllowDuplicatesKey: @NO};
 
 	[self.central
 		scanForPeripheralsWithServices: nil
